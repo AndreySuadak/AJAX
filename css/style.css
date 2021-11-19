@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background-color: rgba( 142, 1, 142, 0.4);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+    width: 20vw;
+    min-height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid rgba(255, 0, 0, 0.5); */
+    padding: 2vh;
+    background-color: rgba( 237, 237, 237, 1);
+    border-radius: 10px;
+}
+
+#load, #info {
+    width: 20vw;
+    /* height: auto; */
+    background-color: rgba( 142, 1, 142, 0.2);
+    margin-top: 2vh;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px;
+}
+#info {
+    margin-top: 2vh;
+    min-height: 50px;
+}
+
+#name {
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: rgba( 142, 1, 142, 0.2);
+    /* margin-top: 2vh; */
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-left: 1vh;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#btn {
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: rgba( 142, 1, 142, 0.2);
+    margin-top: 2vh;
+    box-sizing: border-box;
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* text-align: center; */
+    /* padding-top: 1vh; */
+    cursor: pointer;
+    border-radius: 7px;
+    color: red;
+}
