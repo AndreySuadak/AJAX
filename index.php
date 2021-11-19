@@ -52,7 +52,7 @@
 </head>
 <body>
     <div class="content">
-        <input type="text" id="name" placeholder="Введите Имя">
+        <input type="text" id="name" placeholder="Введите Имя \admin">
         <input type="button" id="btn" value="Готово">
         <div id="load">Загрузить данные</div>
         <div id="info"></div>
